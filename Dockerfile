@@ -15,4 +15,4 @@ RUN git clone git://github.com/lpereira/lwan && \
 WORKDIR /lwan
 EXPOSE 80 443 8080
 VOLUME ["/lwan", "/lwan/wwwroot"]
-CMD ["/lwan/build/lwan/lwan"]
+CMD ["/lwan/build/src/bin/lwan/lwan"]
